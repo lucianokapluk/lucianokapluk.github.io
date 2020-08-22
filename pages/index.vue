@@ -42,11 +42,10 @@ export default {
     return {
       title: "Home",
       script: [
-         { src: "js/jquery.1.11.1.js"},
-    { src: "js/bootstrap.js"},
-    { src: "js/bootstrap.min.js"},
-   
-    { src: "js/main.js"},
+        { src: "js/jquery.1.11.1.js"},
+        { src: "js/bootstrap.js"},
+        { src: "js/bootstrap.min.js"},
+        { src: "js/main.js"},
   
     ],
 

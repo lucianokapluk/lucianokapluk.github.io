@@ -89,7 +89,7 @@ export default {
         }else{
           this.isEmpty=false
           this.loader=true
-          fetch(process.env.BASE_URL,
+          fetch(process.env.BASE_URL+'/api/send',
           {
             method:'post',
             headers: {

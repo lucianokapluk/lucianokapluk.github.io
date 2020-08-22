@@ -7,7 +7,7 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Screenshots of the App</h3>
-                <p class="lead">Lorem Ipsum dolroin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum<br>auctor nisi elit consequat ipsum, nec sagittis sem!</p>
+                <p class="lead">s</p>
             </div><!-- end title -->
 
             <div class="owl-screenshots swiper-container">
@@ -16,11 +16,18 @@
 					<div class="swiper-slide">
 						<div class="skills-widget">
 							<div class="post-media entry wow fadeIn">
-						 		<!-- <a href="img/screenshots/moviesApp/Video.gif" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a> -->
- 								<!-- <img src="img/screenshots/moviesApp/Video.gif" alt="" class="img-fluid img-rounded">  -->
- 								<video  height="495" style="padding-left:5px; border-radius:20px;" controls >
+ 								<video  height="495"  class="video" controls >
 									<source src="img/screenshots/moviesApp/Video.mp4" style="{width:100%;}" type="video/mp4">
 									</video>
+								<div class="magnifier"></div>
+							</div>
+						</div><!-- end skills -->
+					</div>
+					<div class="swiper-slide">
+						<div class="skills-widget">
+							<div class="post-media entry wow fadeIn">
+								<a href="img/screenshots/moviesApp/screenshot_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+								<img src="img/screenshots/moviesApp/screenshot_01.jpg" alt="" class="img-fluid img-rounded">
 								<div class="magnifier"></div>
 							</div>
 						</div><!-- end skills -->
@@ -37,8 +44,8 @@
 					<div class="swiper-slide">
 						<div class="skills-widget">
 							<div class="post-media entry wow fadeIn">
-								<a href="img/screenshots/moviesApp/screenshot_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-								<img src="img/screenshots/moviesApp/screenshot_03.jpg" alt="" class="img-fluid img-rounded">
+								<a href="img/screenshots/moviesApp/screenshot_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+								<img src="img/screenshots/moviesApp/screenshot_04.jpg" alt="" class="img-fluid img-rounded">
 								<div class="magnifier"></div>
 							</div>
 						</div><!-- end skills -->
@@ -46,12 +53,13 @@
 					<div class="swiper-slide">
 						<div class="skills-widget">
 							<div class="post-media entry wow fadeIn">
-								<a href="img/screenshots/moviesApp/screenshot_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-								<img src="img/screenshots/moviesApp/screenshot_04.jpg" alt="" class="img-fluid img-rounded">
+								<a href="img/screenshots/moviesApp/screenshot_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
+								<img src="img/screenshots/moviesApp/screenshot_03.jpg" alt="" class="img-fluid img-rounded">
 								<div class="magnifier"></div>
 							</div>
 						</div><!-- end skills -->
 					</div>
+			
 				</div>
 				<div class="swiper-pagination"></div>
 				<div class="swiper-button-next">
@@ -73,12 +81,12 @@
 	<script type="module">
 
 	var swiper = new Swiper('.swiper-container', {
-			loop: true,
+			
 			effect: 'coverflow',
 			centeredSlides: true,
-			loopFillGroupWithBlank: true,
+			
 			slidesPerView: 4,
-            initialSlide: 3,
+            initialSlide: 1,
             keyboardControl: true,
             mousewheelControl: false,
             lazyLoading: true,
@@ -104,7 +112,8 @@
                     spaceBetween: 3,
                 },
                 575: {
-                    slidesPerView: 1,
+					height:200,
+                    slidesPerView: 1.1,
                     spaceBetween: 3,
                 }
                 
@@ -122,18 +131,16 @@
     export default {
 		name: "Carrousel", 
 		link:[
-		 { rel: "stylesheet",  href:"https://unpkg.com/swiper/swiper-bundle.css"},
-		{ rel: "stylesheet",  href:"https://unpkg.com/swiper/swiper-bundle.min.css"},
+		 	{ rel: "stylesheet",  href:"https://unpkg.com/swiper/swiper-bundle.css"},
+			{ rel: "stylesheet",  href:"https://unpkg.com/swiper/swiper-bundle.min.css"},
 		],
    }
-    
-	
 </script>
-
 <style scoped>
 #screenshots{
 	background-color: rgb(255, 255, 255);
 }
+
 </style>
 
 
