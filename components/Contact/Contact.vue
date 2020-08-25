@@ -90,12 +90,14 @@ export default {
          fetch(process.env.BASE_URL+'/api/v1/send-email',
           {
             method:'post',
-            mode: 'no-cors',
-          body:JSON.stringify({
-                name: this.name,
-                email: this.email,
-                subject: 'My Page contact!',
-                message: this.message
+            headers:{
+              'Content-Type':'application/json'
+            },
+            body:JSON.stringify({
+                "name": this.name,
+                "email": this.email,
+                "subject": 'My Page contact!',
+                "message": this.message
             
             })
           })
