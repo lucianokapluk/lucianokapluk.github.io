@@ -39,9 +39,7 @@ export default {
   /*
   ** Global CSS
   */
- serverMiddleware: [
-  { path: '/api/send', handler: '~/api/sendEmail.js' },
-],
+
   css: [
   ],
   script: [
@@ -72,10 +70,6 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-        // Simple usage
-        '@nuxtjs/proxy',
-
-   
       
   ],
   /*
