@@ -73,7 +73,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'gmail-send',
+
   ],
   /*
   ** Build configuration

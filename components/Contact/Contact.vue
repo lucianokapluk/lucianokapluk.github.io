@@ -15,7 +15,7 @@
                         <div class="clearfix"></div>
                         
                     </div>
-                  
+
                     <form @submit.prevent="sendEmail">
                         <div class="row">
                             <div class="col-md-6">
