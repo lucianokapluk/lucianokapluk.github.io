@@ -90,6 +90,7 @@ export default {
           fetch(process.env.BASE_URL+'/api/send',
           {
             method:'post',
+            mode: 'no-cors',
             headers: {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
