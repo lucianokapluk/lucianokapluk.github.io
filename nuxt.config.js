@@ -56,7 +56,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    
+    { src: '~api/sendEmail.js', mode: 'client' }
   ],
 
   components: true,
