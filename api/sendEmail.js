@@ -7,7 +7,7 @@ module.exports = { path: '/api/send', handler: app }
 
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => {
+app.post('/', (req, res) => {
 
         const sendemail = require('gmail-send')({
                 user: 'l.kapluk@itecriocuarto.org.ar',

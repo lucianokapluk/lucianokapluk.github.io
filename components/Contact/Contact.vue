@@ -90,14 +90,6 @@ export default {
           fetch(process.env.BASE_URL+'/api/send',
           {
             method:'post',
-            mode: 'no-cors',
-            headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin':'*',
-            'Access-Control-Allow-Headers': 'Content-Type'
-  
-          },
           body:JSON.stringify({
                 name: this.name,
                 email: this.email,
