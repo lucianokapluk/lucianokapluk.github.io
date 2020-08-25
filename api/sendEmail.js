@@ -35,7 +35,3 @@ app.post('/', (req, res) => {
       
 })
 
-export default {
-        path: '/api/send',
-        handler: app
-      }

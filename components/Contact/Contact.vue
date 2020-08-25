@@ -87,9 +87,10 @@ export default {
         }else{
           this.isEmpty=false
           this.loader=true
-          fetch(process.env.BASE_URL+'/api/send',
+         fetch(process.env.BASE_URL+'/api/send',
           {
             method:'post',
+            mode: 'no-cors',
           body:JSON.stringify({
                 name: this.name,
                 email: this.email,

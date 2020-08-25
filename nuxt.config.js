@@ -65,6 +65,7 @@ export default {
   ],
   env: {
     BASE_URL: 'https://lucianokapluk.github.io',
+   /*  BASE_URL: 'http://localhost:3000', */
 
   },
   /*
@@ -74,8 +75,7 @@ export default {
         // Simple usage
         '@nuxtjs/proxy',
 
-        // With options
-        ['@nuxtjs/proxy', { pathRewrite: { '^/api/send' : '/api/send' } }]
+   
       
   ],
   /*
