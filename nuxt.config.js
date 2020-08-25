@@ -56,7 +56,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    { src: '~api/sendEmail.js', mode: 'client' }
+
   ],
 
   components: true,
@@ -66,7 +66,7 @@ export default {
   buildModules: [
   ],
   env: {
-    BASE_URL: 'http://lucianokapluk.github.io',
+    BASE_URL: 'https://lucianokapluk.github.io',
 
   },
   /*

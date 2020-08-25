@@ -1,6 +1,4 @@
 <template>
-    <!-- Contact Section
-    ==========================================-->
     <div id="tf-contact" class="text-center">
         <div class="container">
 
