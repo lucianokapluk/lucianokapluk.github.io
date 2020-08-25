@@ -22,7 +22,7 @@ export default {
       ],
       script:[
         { src: "js/swiper.min.js"},    
-        { src: "js/jquery.1.11.1.js"},
+       
         { src: "js/bootstrap.js"},
         { src: "js/bootstrap.min.js"},
         { src: "js/main-car.js"},
