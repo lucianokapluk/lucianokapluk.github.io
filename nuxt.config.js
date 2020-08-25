@@ -64,8 +64,8 @@ export default {
   buildModules: [
   ],
   env: {
-    BASE_URL: 'https://lucianokapluk.github.io',
-   /*  BASE_URL: 'http://localhost:3000', */
+  /*   BASE_URL: 'https://lucianokapluk.github.io', */
+    BASE_URL: 'https://afternoon-basin-01987.herokuapp.com',
 
   },
   /*

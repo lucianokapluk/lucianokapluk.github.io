@@ -87,7 +87,7 @@ export default {
         }else{
           this.isEmpty=false
           this.loader=true
-         fetch(process.env.BASE_URL+'/api/send',
+         fetch(process.env.BASE_URL+'/api/v1/send-email',
           {
             method:'post',
             mode: 'no-cors',
