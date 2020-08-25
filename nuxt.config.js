@@ -42,7 +42,8 @@ export default {
   ** Global CSS
   */
  serverMiddleware: [
-  { path: '/api/send', handler: '~/api/sendEmail' },
+
+  { path: '/api/send', handler: '~/api/sendEmail.js' },
 ],
   css: [
   ],
