@@ -64,7 +64,7 @@ export default {
   buildModules: [
   ],
   env: {
-    BASE_URL: 'http://lucianokapluk.github.io',
+    BASE_URL: 'https://lucianokapluk.github.io',
 
   },
   /*
