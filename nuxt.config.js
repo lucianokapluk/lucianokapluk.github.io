@@ -33,17 +33,14 @@ export default {
       { rel: "stylesheet",  href: "css/owl.carousel.css"},
       { rel: "stylesheet",  href: "fonts/font-awesome/css/font-awesome.css"},
       { rel: "stylesheet",  href: "css/style.css"},
-      { rel: "stylesheet",  href: "css/responsive.css"},
-      { rel: "stylesheet",  href: "fonts/font-awesome/css/font-awesome.css"},
-      
+      { rel: "stylesheet",  href: "css/responsive.css"},  
     ]
   },
   /*
   ** Global CSS
   */
  serverMiddleware: [
-
-  { path: '/api/send', handler: '~/api/sendEmail.js' },
+  { path: '/api/send', handler: '~/api/sendEmail' },
 ],
   css: [
   ],
@@ -57,7 +54,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-
+    
   ],
 
   components: true,
@@ -67,14 +64,13 @@ export default {
   buildModules: [
   ],
   env: {
-    BASE_URL: 'https://lucianokapluk.github.io',
+    BASE_URL: 'http://lucianokapluk.github.io',
 
   },
   /*
   ** Nuxt.js modules
   */
   modules: [
-
   ],
   /*
   ** Build configuration

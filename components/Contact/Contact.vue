@@ -13,6 +13,8 @@
                         <div class="clearfix"></div>
                         
                     </div>
+<no-ssr>
+
 
                     <form @submit.prevent="sendEmail">
                         <div class="row">
@@ -51,7 +53,7 @@
                     <div id="msgSubmit"  v-if="this.isEmpty" class="h3 text-center"><i class="fa fa-times"> </i> You must complete all the fields!</div>
                    <div id="msgSubmit"  v-if="this.msgError" class="h3 text-center"><i class="fa fa-times"> </i> Oops, something went wrong, try again later please!</div>
                     </form>
-
+</no-ssr>
                 </div>
             </div>
 
