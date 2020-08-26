@@ -7,7 +7,7 @@
                     <div class="col-md-6 col-sm-6">
                         <div class="our-team">
                             <div class="team_img">
-                                <img src="img/Luciano Kapluk.jpg" alt="Luciano Kapluk">
+                                <img src="img/Luciano Kapluk.webp" alt="Luciano Kapluk">
                                 <ul class="social">       
                                     <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=kaplukluciano@gmail.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-google"></i></a></li>
                                     <li><a href="https://www.linkedin.com/in/lucianokapluk/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>

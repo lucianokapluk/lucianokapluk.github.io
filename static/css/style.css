@@ -148,7 +148,7 @@ font-weight: 900;
 	}
 /* Home Style */
 #tf-home{
-	background: url(../img/Parking_Logo.jpg);
+	background: url(../img/Parking_Logo.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -284,7 +284,7 @@ ul.about-list li span{
 
 /* Team Section */
 #tf-team{
-	background: url(../img/03.jpg);
+	background: url(../img/03.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -412,7 +412,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-experience{
-	background: url(../img/04.jpg);
+	background: url(../img/04.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
