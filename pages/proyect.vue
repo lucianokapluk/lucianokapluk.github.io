@@ -15,7 +15,6 @@ export default {
   },
   head(){
     return {
-      title: "proyect",
       link:[
         { rel: "stylesheet",  href: "css/swiper.min.css"},
         { rel: "stylesheet",  href: "css/carrousel.css"},

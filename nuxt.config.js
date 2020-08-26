@@ -18,11 +18,11 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Luciano Kapluk - Software developer',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: "Luciano Kapluk - Software developer flutter developer, react native , freelance, code" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -70,14 +70,13 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-      
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
- 
+  
   },
   generate: {
     dir: 'docs'
