@@ -1,33 +1,41 @@
-@media (max-width: 766px) {
+@media (max-width: 766px){
   .content {
-    padding: 40% 0 0;
-  }
-
-  #bs-example-navbar-collapse-1 {
-    background-color: rgba(37, 35, 35, 0.692);
-  }
+	padding: 40% 0 0;
+    }
+    #bs-example-navbar-collapse-1{
+        background-color: rgba(37, 35, 35, 0.692);
+    }
 }
 
-@media (max-width: 603px) {
-  #tf-menu.navbar-default {
-    background-color: rgba(0, 0, 0, 0);
-  }
-
-  #tf-menu2.navbar-default {
+@media (max-width: 603px){
+  
+#tf-menu.navbar-default {
+	background-color: rgba(0, 0, 0, 0);
+    }
+#tf-menu2.navbar-default {
     background-color: rgba(0, 0, 0, 0.79);
-  }
-
-  label {
+    }
+#tf-works li.pull-right, #tf-works li.pull-left {
+    margin-top: 10px;
     float: none !important;
-  }
-
-  .hover-bg .hover-text {
-    padding: 12% 10%;
-  }
+    text-align: center;
+    display: block;
+}
+label{
+    float: none !important
+}
+.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
 }
 
-@media (max-width: 360px) {
-  .hover-bg .hover-text {
+.hover-bg .hover-text {
+    padding: 12% 10%;
+}
+}
+@media (max-width: 360px){
+.hover-bg .hover-text {
     padding: 22% 10%;
-  }
+}
 }
