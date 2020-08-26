@@ -25,6 +25,9 @@ video {
   display: inline-block;
   vertical-align: baseline;
 }
+[hidden] {
+  display: none;
+}
 a {
   background-color: transparent;
 }
@@ -477,6 +480,20 @@ textarea.form-control {
   display: block;
   visibility: visible;
 }
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+       -o-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+       -o-transition-duration: .35s;
+          transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+       -o-transition-property: height, visibility;
+          transition-property: height, visibility;
+}
 .nav {
   padding-left: 0;
   margin-bottom: 0;
@@ -837,6 +854,10 @@ a.thumbnail:focus {
 .navbar-header:after,
 .navbar-collapse:after {
   clear: both;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
 }
 @-ms-viewport {
   width: device-width;
