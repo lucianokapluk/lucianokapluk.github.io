@@ -1,3 +1,6 @@
+import PurgecssPlugin from 'purgecss-webpack-plugin';
+import glob from 'glob-all';
+import path from 'path';
 
 export default {
   /*
@@ -70,15 +73,35 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+  
   ],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
   */
-  build: {
-  
+ build: {
+ 
   },
+
+  optimization: {
+    minimize: true,
+  },
+
   generate: {
-    dir: 'docs'
+    dir: 'docs',
+    extractCSS: true,
+    extend(config, { isDev, isClient }) {
+      if (!isDev && isClient) {
+        config.plugins.push(
+          new PurgecssPlugin({
+            paths: glob.sync([
+              path.join(__dirname, './pages/**/*.vue'),
+              path.join(__dirname, './components/**/*.vue')
+            ]),
+            whitelist: ['html', 'body']
+          })
+        )
+      }
+    }
   }
 }
