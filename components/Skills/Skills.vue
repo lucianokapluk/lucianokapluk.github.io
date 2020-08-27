@@ -45,20 +45,19 @@
                     
                 </div>
             </div>
-          
-                <a class="btn " type="button" style="color:#5a5a5a;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    <div class="section-title center">
-                        <center><h2> <strong>courses</strong></h2></center>
-                       
-                           <a class="fa fa-chevron-down" style="top:0;"></a>
-                    
-                    </div>
-                </a>
-           
+            <div>
+
+            <a class="btn " type="button" style="color:#5a5a5a;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <div class="section-title center">
+                    <center><h2> <strong>courses</strong></h2></center>
+                        <a class="fa fa-chevron-down" style="top:0;"></a>
+                </div>
+            </a>
             <div class="collapse" id="collapseExample">
                 <div class="card card-body">
-                    <Courses/>
+                    <Courses />
                 </div>
+            </div>
             </div>
 
         </div>
@@ -73,6 +72,7 @@ export default {
     name: 'Skills',
     components:{
         Courses,
+       
     }
     
 }
