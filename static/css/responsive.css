@@ -22,7 +22,7 @@
     display: block;
 }
 label{
-    float: none !important
+    float: left !important
 }
 .pull-left.fnav,
 .pull-right.fnav {

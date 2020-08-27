@@ -25,7 +25,7 @@
             <li><a href="#tf-experience" class="page-scroll">Experience</a></li>
             <li><a href="#tf-skills" class="page-scroll">Skills</a></li>
             <li><a href="#tf-works" class="page-scroll">Portfolio</a></li>
-            <li><a href="#tf-courses" class="page-scroll">Courses</a></li>
+          
             <li><a href="#tf-contact" class="page-scroll">Contact</a></li>
              <li>
              <a href="uploads/kaplukluciano.pdf" download="cv-kaplukluciano.pdf"><i class="fa fa-download"></i></a>

@@ -1,5 +1,5 @@
 <template>
-    <div id="tf-contact" class="text-center">
+    <div id="tf-contact" class="text-center backcolor" >
         <div class="container">
 
             <div class="row">
@@ -31,14 +31,11 @@
                          
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Message</label>
-                            <textarea class="form-control" v-model.trim="message" rows="3"></textarea>
+                            <label for="textArea">Message</label>
+                            <textarea class="form-control" id="textArea" v-model.trim="message" rows="3"></textarea>
                             
                         </div>
                         <div class="row ">
-                             
-                    
-                         
                           <div class='col-lg-12'>
                             <button type="submit" class="btn tf-btn btn-default">Submit</button>
                           </div>
@@ -149,7 +146,10 @@ export default {
 .fa-times {
   color: red;
 }
-
+label{
+  position: relative;
+  left: 0;
+  }
 .justify{
   display: flex;
   flex-direction: row;
@@ -225,4 +225,5 @@ export default {
     box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
   }
 }
+
 </style>

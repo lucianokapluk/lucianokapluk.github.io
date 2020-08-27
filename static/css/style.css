@@ -380,10 +380,10 @@ img.img-circle.team-img {
 
 /* Services Section */
 #tf-skills{
-	padding: 50px 0;
+	padding: 10px 0 0px 0;
 }
 #tf-courses{
-	padding: 50px 0;
+	padding: 0px 0;
 }
 .space{
 	margin-top: 40px;
@@ -404,7 +404,9 @@ img.img-circle.team-img {
 	font-size: 50px;
 	padding: 20px 25px;
 }
-
+.skills{
+	padding-bottom: 20px;
+}
 #tf-skills .skills:hover>i.fa{
 	background: #FCAC45;
 	color: #ffffff;

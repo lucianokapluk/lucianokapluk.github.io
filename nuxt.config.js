@@ -22,13 +22,16 @@ export default {
   */
   head: {
     title: 'Luciano Kapluk - Software developer',
+    htmlAttrs: {
+      lang: 'en'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: "Luciano Kapluk - Software developer flutter developer, react native , freelance, code" }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/codigo (1).png' },
       { rel: "stylesheet",  href: "css/animate.css"},
       { rel: "stylesheet",  href: "css/bootstrap.css"},
       { rel: "stylesheet",  href: "css/bootstrap.min.css"},

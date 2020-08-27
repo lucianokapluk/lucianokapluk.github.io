@@ -6,8 +6,8 @@
   <Experience/>
   <Skills/>
   <Proyects/>
-  <Courses/>
-  <hr/>
+  
+
   <Contact/>
   <Footer/>
 

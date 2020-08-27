@@ -16,6 +16,6 @@
     background-color: rgba(0, 0, 0, 0.79);
     }
 label{
-    float: none !important
+    float: left !important
 }
 }

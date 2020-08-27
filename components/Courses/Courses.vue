@@ -3,13 +3,6 @@
 
     <div class="container ">
         <div id="tf-courses" class="text-center">
-                <div class="section-title center">
-                    <center><h2> <strong>courses</strong></h2></center>
-                    <div class="line">
-                        <hr>
-                    </div>
-                </div>
-
                 <div id="team" class="row">
                     <div class="col-lg-3 col-md-6 col-sm-12" >
                     <div class="item">
@@ -38,6 +31,7 @@
                     </div>
 
                     </div>
+                    
                     <div class="col-lg-3 col-md-6 col-sm-12" >
                     <div class="item ">
                         <div class="thumbnail">
