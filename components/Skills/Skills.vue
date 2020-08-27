@@ -71,7 +71,9 @@
 import Courses from '../Courses/Courses'
 export default {
     name: 'Skills',
-
+    components:{
+        Courses,
+    }
     
 }
 </script>
