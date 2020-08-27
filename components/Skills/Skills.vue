@@ -54,9 +54,9 @@
                 </div>
             </a>
             <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                    <Courses />
-                </div>
+                
+                <Courses />
+                
             </div>
             </div>
 
