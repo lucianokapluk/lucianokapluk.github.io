@@ -1,6 +1,6 @@
 <template>
- <div class="container">
-     <div id="tf-skills" class="text-center">
+    <div class="container">
+        <div id="tf-skills" class="text-center">
        
             <div class="section-title center">
                 <h2><strong>MY SKILLS</strong></h2>
@@ -46,76 +46,73 @@
                 </div>
             </div>
             <div>
-
-            <a class="btn " type="button" style="color:#5a5a5a;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                <div class="section-title center">
-                    <center><h2> <strong>courses</strong></h2></center>
-                        <a class="fa fa-chevron-down" ></a>
-                </div>
-            </a>
+                <a class="btn " type="button" style="color:#5a5a5a;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="section-title center">
+                        <center><h2> <strong>courses</strong></h2></center>
+                            <a class="fa fa-chevron-down" ></a>
+                    </div>
+                </a>
+            </div>
             <div class="collapse" id="collapseExample">
                 
-                       <div id="tf-courses" class="text-center">
-                <div id="team" class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12" >
-                    <div class="item">
-                        <div class="thumbnail">
-                            <img src="img/courses/flutter.webp" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Flutter</h3>
-                                <p>Udemy / Fernadno Herrera</p>
-                                
+                <div id="tf-courses" class="text-center">
+                    <div id="team" class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12" >
+                            <div class="item">
+                                <div class="thumbnail">
+                                    <img src="img/courses/flutter.webp" alt="..." class="img-circle team-img">
+                                    <div class="caption">
+                                        <h3>Flutter</h3>
+                                        <p>Udemy / Fernadno Herrera</p>
+                                        
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
 
 
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12" >
-                    <div class="item ">
-                        <div class="thumbnail">
-                            <img src="img/courses/reac.webp" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>React Js</h3>
-                                <p>Platzi / Richard Kaufman </p>
-                                
-                            </div>
                         </div>
-                    </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12" >
+                            <div class="item ">
+                                <div class="thumbnail">
+                                    <img src="img/courses/reac.webp" alt="..." class="img-circle team-img">
+                                    <div class="caption">
+                                        <h3>React Js</h3>
+                                        <p>Platzi / Richard Kaufman </p>
+                                        
+                                    </div>
+                                </div>
+                            </div>
 
-                    </div>
-                    
-                    <div class="col-lg-3 col-md-6 col-sm-12" >
-                    <div class="item ">
-                        <div class="thumbnail">
-                            <img src="img/courses/rn.png" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>React Native</h3>
-                                <p>Platzi / Leonidas Esteban</p>
-                                
+                        </div>
+                        
+                        <div class="col-lg-3 col-md-6 col-sm-12" >
+                            <div class="item ">
+                                <div class="thumbnail">
+                                    <img src="img/courses/rn.png" alt="..." class="img-circle team-img">
+                                    <div class="caption">
+                                        <h3>React Native</h3>
+                                        <p>Platzi / Leonidas Esteban</p>
+                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12" >
-                    <div class="item ">
-                        <div class="thumbnail">
-                            <img src="img/courses/js.webp" alt="..." class="img-circle team-img">
-                            <div class="caption">
-                                <h3>Javascript Basics</h3>
-                                <p>Platzi / Sacha Lifszyc</p>
-                                
+                        <div class="col-lg-3 col-md-6 col-sm-12" >
+                            <div class="item ">
+                                <div class="thumbnail">
+                                    <img src="img/courses/js.webp" alt="..." class="img-circle team-img">
+                                    <div class="caption">
+                                        <h3>Javascript Basics</h3>
+                                        <p>Platzi / Sacha Lifszyc</p>
+                                        
+                                    </div>
+                                </div>
                             </div>
                         </div>
+            
                     </div>
-                    </div>
-         
                 </div>
-        </div>
-                
             </div>
-            </div>
-
         </div>
         
     </div>
