@@ -49,4 +49,7 @@
 .backs{
   background-color: #333;
 }
+.on{
+  display: none;
+}
 </style>
