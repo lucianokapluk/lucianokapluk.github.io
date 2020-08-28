@@ -28,7 +28,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "Luciano Kapluk - Software developer flutter developer, react native , freelance, code" }
+      { hid: 'Luciano Kapluk - Software developer', name: 'Luciano Kapluk - Software developer Flutter', content: "Luciano Kapluk - Software developer flutter developer, react native , freelance, code" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/codigo (1).png' },
