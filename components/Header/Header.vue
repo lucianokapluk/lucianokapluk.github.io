@@ -62,4 +62,8 @@
          -o-transition-property: height, visibility;
             transition-property: height, visibility;
   }
+  .addprofile:before{
+	text-transform: capitalize;
+	content:'Luciano Kapluk';
+}
 </style>

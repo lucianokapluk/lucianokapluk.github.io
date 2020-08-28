@@ -111,6 +111,12 @@ font-weight: 900;
 	font-size: 12px;
 	letter-spacing: 1px;
 }
+
+
+.addprofile:before{
+	text-transform: capitalize;
+	content:'Luciano Kapluk';
+}
 .on{
 	background-color: #222222 !important;
 	
