@@ -127,6 +127,37 @@ font-weight: 900;
 	
 	padding: 0 !important;
 }
+.page-loading {
+    background-color: #ffffff;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+.page-loading > img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.page-loading > span {
+    color: #b3b3b3;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 0;
+    margin-top: 30px;
+    text-decoration: underline;
+}
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {

@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "nuxt": "^2.14.0",
-    "swiper": "^6.1.2"
+    "swiper": "^6.1.2",
+    "vue-router": "^3.4.3"
   },
   "devDependencies": {
     "glob-all": "^3.2.1",

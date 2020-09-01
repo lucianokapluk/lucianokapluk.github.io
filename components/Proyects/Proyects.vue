@@ -12,25 +12,28 @@
                             <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
                         </div> 
                         <div class="space"></div>
+                      
                         <div id="lightbox" class="row">
-
-                            <!-- <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                                <div class="portfolio-item">
-                                    <div class="hover-bg">
-                                        <a href="#">
-                                            <div class="hover-text">
-                                                <h4>Logo Design</h4>
-                                                <small>Branding</small>
-                                                <div class="clearfix"></div>
-                                                <i class="fa fa-plus"></i>
-                                            </div>
-                                            <img src="img/portfolio/01.jpg" class="img-responsive" alt="...">
-                                        </a>
+                    <div v-for="(proyect, i) in detailsProyect" :key="i" >
+                            <div class="col-sm-6 col-md-3 col-lg-3 branding">
+                               
+                                    <div class="portfolio-item">
+                                        <div class="hover-bg">
+                                            <a :href="proyect.route">
+                                                <div class="hover-text">
+                                                    <h4>{{proyect.name}}</h4>
+                                                    <small>Branding</small>
+                                                    <div class="clearfix"></div>
+                                                    <i class="fa fa-plus"></i>
+                                                </div>
+                                                <img :src="require(`../../static/img/${proyect.imagecard}`)" class="img-responsive" alt="...">
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div> -->
-
-                            <h1> COMING SOON...</h1>
+                           
+                            </div>
+                        
 
                         </div>
                     </div>
@@ -41,9 +44,14 @@
 
 </template>
 <script>
-
+import dataproyects from '../../static/proyects';
 export default {
-    name:'Proyects'
+    name:'Proyects',
+     data () {
+            return {
+                detailsProyect: dataproyects
+            }
+        },
 }
 </script>
 <style scoped>

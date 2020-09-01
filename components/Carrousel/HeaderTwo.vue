@@ -1,9 +1,9 @@
 <template>
 
 
-    <nav  id="tf-menu2" class="navbar-default">
+    <nav  id="tf-menu2" class="navbar-default" >
   
-      <div class="container">
+      <div class="container" >
        
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -51,5 +51,23 @@
 }
 .on{
   display: none;
+}
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-timing-function: ease;
+         -o-transition-timing-function: ease;
+            transition-timing-function: ease;
+    -webkit-transition-duration: .35s;
+         -o-transition-duration: .35s;
+            transition-duration: .35s;
+    -webkit-transition-property: height, visibility;
+         -o-transition-property: height, visibility;
+            transition-property: height, visibility;
+  }
+  .addprofile:before{
+	text-transform: capitalize;
+	content:'Luciano Kapluk';
 }
 </style>

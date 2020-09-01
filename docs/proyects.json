@@ -1,3 +1,37 @@
+
 {
-    
+    "teloregalo": {
+        "name":"Te lo regalo",
+        "route":"proyects/teloregalo",
+        "type": "web",
+        "description": "Comprá a través de la aplicación a un comercio de confianza. Lo que compres, lo podrá retirar cualquier persona que se encuentre trabajando durante la pandemia.",
+        "imagecard": "screenshots/teloregalo/first-image.jpg",
+        "my-rol": "Backend with Laravel & MySql",
+        "screenshots":[
+            "screenshots/teloregalo/screenshot_01.jpg",
+            "screenshots/teloregalo/screenshot_02.jpg",
+            "screenshots/teloregalo/screenshot_03.jpg",
+            "screenshots/teloregalo/screenshot_04.jpg"],
+        "git-hub":"https://github.com/Comunidad-Programadores-contra-Covid-19/Teloregalo/tree/dev",
+        "url":"https://teloregalo.com.ar/",
+        "date": "16-04-2020"
+    },
+    "moviesapp": {
+        "name":"Movie app",
+        "route":"proyects/moviesapp",
+        "type": "mobile",
+        "description": "This app shows you movies, their description and the actors who worked on it",
+        "imagecard": "screenshots/moviesApp/first-images.jpg",
+        "my-rol": "Flutter dev",
+        "screenshots":[
+            "screenshots/moviesApp/screenshot_01.jpg",
+            "screenshots/moviesApp/screenshot_02.jpg",
+            "screenshots/moviesApp/screenshot_03.jpg",
+            "screenshots/moviesApp/screenshot_04.jpg",
+            "screenshots/moviesApp/Video.mp4"],
+        "git-hub":"https://github.com/Comunidad-Programadores-contra-Covid-19/Teloregalo/tree/dev",
+        "url":"",
+        "date": "16-08-2020"
+    }
 }
+

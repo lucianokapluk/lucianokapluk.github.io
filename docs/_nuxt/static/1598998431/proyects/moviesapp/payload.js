@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/proyects/moviesapp", {data:[{}],fetch:[],mutations:void 0});

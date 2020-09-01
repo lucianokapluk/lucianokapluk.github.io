@@ -6,7 +6,7 @@ gulp.task('purgecss', () => {
           .src(['docs/css/*.css', "!docs/css/swiper.min.css"])
           .pipe( 
             purgecss({
-              content: ['docs/index.html','docs/proyect/index.html']
+              content: ['docs/index.html','docs/proyects/moviesapp/index.html','docs/proyects/teloregalo/index.html']
             })
           )
           .pipe(gulp.dest('docs/css/'))

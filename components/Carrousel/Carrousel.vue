@@ -1,76 +1,41 @@
 <template>
 <div class="app_version" data-spy="scroll" data-target="#navbarApp" data-offset="98">
-
+    
 
 
     <div id="screenshots" class="section wb">
         <div class="container">
             <div class="section-title text-center">
-                <h3>Screenshots of the App</h3>
-                <p class="lead">s</p>
+                <h3>{{this.detailsProyect.name}}</h3>
+                <p class="lead">{{this.detailsProyect.description}}</p>
             </div><!-- end title -->
 
             <div class="owl-screenshots swiper-container">
-				<div class="mobilescreen-image"></div>
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="skills-widget">
-							<div class="post-media entry wow fadeIn">
- 								<video  height="495"  class="video" controls >
-									<source src="img/screenshots/moviesApp/Video.mp4" style="{width:100%;}" type="video/mp4">
-									</video>
-								<div class="magnifier"></div>
-							</div>
-						</div><!-- end skills -->
-					</div>
-					<div class="swiper-slide">
-						<div class="skills-widget">
-							<div class="post-media entry wow fadeIn">
-								<a href="img/screenshots/moviesApp/screenshot_01.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-								<img src="img/screenshots/moviesApp/screenshot_01.jpg" alt="" class="img-fluid img-rounded">
-								<div class="magnifier"></div>
-							</div>
-						</div><!-- end skills -->
-					</div>
-					<div class="swiper-slide">
-						<div class="skills-widget">
-							<div class="post-media entry wow fadeIn">
-								<a href="img/screenshots/moviesApp/screenshot_02.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-								<img src="img/screenshots/moviesApp/screenshot_02.jpg" alt="" class="img-fluid img-rounded">
-								<div class="magnifier"></div>
-							</div>
-						</div><!-- end skills -->
-					</div>
-					<div class="swiper-slide">
-						<div class="skills-widget">
-							<div class="post-media entry wow fadeIn">
-								<a href="img/screenshots/moviesApp/screenshot_04.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-								<img src="img/screenshots/moviesApp/screenshot_04.jpg" alt="" class="img-fluid img-rounded">
-								<div class="magnifier"></div>
-							</div>
-						</div><!-- end skills -->
-					</div>
-					<div class="swiper-slide">
-						<div class="skills-widget">
-							<div class="post-media entry wow fadeIn">
-								<a href="img/screenshots/moviesApp/screenshot_03.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
-								<img src="img/screenshots/moviesApp/screenshot_03.jpg" alt="" class="img-fluid img-rounded">
-								<div class="magnifier"></div>
-							</div>
-						</div><!-- end skills -->
-					</div>
+				<div  class="mobilescreen-image"></div>
 			
+				<div class="swiper-wrapper"  >
+			
+					<div class="swiper-slide" v-for="(screenshot, i) in this.detailsProyect.screenshots" :key="i">
+							<div class="skills-widget">
+								<div class="post-media entry wow fadeIn">
+									<img  v-if='screenshot.indexOf(".mp4") == -1' :src="require(`../../static/img/${screenshot}`)" alt="" class="img-fluid img-rounded">
+									
+									<video   v-if='screenshot.indexOf(".mp4") !== -1' height="495"  class="video" controls >
+										<source :src="require(`../../static/img/${screenshot}`)" style="{width:100%;}" type="video/mp4">
+									</video>
+									<div class="magnifier"></div>
+								</div>
+							</div><!-- end skills -->
+						
+					</div>
 				</div>
+			
 				<div class="swiper-pagination"></div>
-				<div class="swiper-button-next">
-					
-				</div>
-				<div class="swiper-button-prev">
-					
-				</div>
-            </div><!-- end row -->			
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+            </div><!-- end row -->		
+
         </div><!-- end container -->
-		
 		
 
     </div><!-- end section -->
@@ -119,6 +84,7 @@
                 
             }
 		});
+	
 	</script>
 	
 
@@ -128,12 +94,19 @@
 
 <script>
 	import swiper from 'swiper/bundle';
+
     export default {
 		name: "Carrousel", 
+		  props: ['proyectdata'] ,
 		link:[
 		 	{ rel: "stylesheet",  href:"https://unpkg.com/swiper/swiper-bundle.css"},
 			{ rel: "stylesheet",  href:"https://unpkg.com/swiper/swiper-bundle.min.css"},
 		],
+		data(){
+			 return {
+                detailsProyect: this.proyectdata
+            }
+		}
    }
 </script>
 <style scoped>

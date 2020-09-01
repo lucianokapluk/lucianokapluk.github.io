@@ -122,6 +122,37 @@ font-weight: 900;
 	
 	padding: 0 !important;
 }
+.page-loading {
+    background-color: #ffffff;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 2147483647;
+}
+.page-loading > img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.page-loading > span {
+    color: #b3b3b3;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 17px;
+    letter-spacing: 0;
+    margin-top: 30px;
+    text-decoration: underline;
+}
 
 .navbar-toggle {
 	border-radius: 0;
@@ -330,6 +361,54 @@ img.img-circle.team-img {
 ==============================*/
 #tf-works{
 	padding: 80px 0;
+}
+.portfolio-item{
+	margin-bottom: 30px;
+}
+.portfolio-item .hover-bg{
+	height: 260px;
+	overflow: hidden;
+	position: relative;
+}
+
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.66);
+	padding: 25% 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+    transition: all 0.5s;
+}
+.hover-bg .hover-text>h4{
+	opacity: 0;
+	-webkit-transform: translateY(100%);
+            transform: translateY(100%);
+            transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>h4{
+	opacity: 1;
+    -webkit-backface-visibility:hidden;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+.hover-bg .hover-text>i{
+	opacity: 0;
+	-webkit-transform: translateY(0);
+            transform: translateY(0);
+            transition: all 0.3s;
+}
+.hover-bg:hover .hover-text>i{
+	opacity: 1;
+    -webkit-backface-visibility:hidden;
+   -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+}
+.hover-bg:hover .hover-text{
+	opacity: 1;
 }
 #tf-works i.fa {
 	height: 30px;

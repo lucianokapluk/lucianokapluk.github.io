@@ -87,9 +87,13 @@ export default {
   optimization: {
     minimize: true,
   },
-
+  loading: {
+    color: 'blue',
+    height: '5px'
+  },
   generate: {
     dir: 'docs',
+    routes: ['/proyects/moviesapp', '/proyects/teloregalo']
   
   
   }
