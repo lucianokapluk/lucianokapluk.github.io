@@ -23,6 +23,11 @@ font-weight: 900;
 h4{
 	text-transform: uppercase;
 }
+h5{
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
 p{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -364,11 +369,36 @@ img.img-circle.team-img {
 }
 .portfolio-item{
 	margin-bottom: 30px;
+	
 }
 .portfolio-item .hover-bg{
 	height: 260px;
+	width: 260px;
 	overflow: hidden;
 	position: relative;
+	border-radius: 10px;
+}
+.hoverbutton {
+	background-color: #e65100;
+	border-radius: 50%;
+    position: absolute;
+    color: #ffffff !important;
+    bottom: 7%;
+    font-size: 21px;
+    z-index: 95959599999 !important;
+    left: 0;
+    opacity: 0.2;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: -20px auto;
+}
+
+
+.post-media .hoverbutton:hover {
+    opacity: 0.8;
 }
 
 .hover-bg .hover-text {
@@ -410,6 +440,14 @@ img.img-circle.team-img {
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
+.fa.fa-calendar{
+
+	border: none !important;
+	font-size: 15px !important;
+	padding: 5px  !important;
+
+
+}
 #tf-works i.fa {
 	height: 30px;
 	width: 30px;
@@ -419,6 +457,7 @@ img.img-circle.team-img {
 	border-radius: 50%;
 	color: #FCAC45;
 }
+
 /* Testimonials Section */
 #tf-testimonials{
 	background: url(../img/05.webp);

@@ -5,27 +5,30 @@
                     <div class="container"> <!-- Container -->
                        <div class="section-title text-center center">
                             <h2>take a look at <strong> my projects</strong></h2>
-                            <!-- <div class="line">
-                                <hr>
-                            </div>
-                            <div class="clearfix"></div>
-                            <small><em>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</em></small> -->
                         </div> 
                         <div class="space"></div>
                       
-                        <div id="lightbox" class="row">
-                    <div v-for="(proyect, i) in detailsProyect" :key="i" >
-                            <div class="col-sm-6 col-md-3 col-lg-3 branding">
-                               
+                        <div id="lightbox" class="row" >
+                        
+                    <div  v-for="(proyect, i) in detailsProyect" :key="i" >
+                         
+                            <div  id="box" class="col-sm-6 col-md-6 col-lg-6 " >
+                             
                                     <div class="portfolio-item">
                                         <div class="hover-bg">
                                             <a :href="proyect.route">
                                                 <div class="hover-text">
                                                     <h4>{{proyect.name}}</h4>
-                                                    <small>Branding</small>
+                                                    <h5>{{proyect.tool}}</h5>
                                                     <div class="clearfix"></div>
-                                                    <i class="fa fa-plus"></i>
+                                                        <div style="margin-top:0px;" >
+                                                   <i class="fa fa-external-link"></i>
+                                                        </div>
+                                                    <div style="margin-top:60px;" >
+                                                     <span class="date">  <i class="fa fa-calendar"> </i> {{proyect.date}}</span>
+                                                    </div>
                                                 </div>
+                                                
                                                 <img :src="require(`../../static/img/${proyect.imagecard}`)" class="img-responsive" alt="...">
                                             </a>
                                         </div>
@@ -55,5 +58,9 @@ export default {
 }
 </script>
 <style scoped>
-
+#box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 </style>

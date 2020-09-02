@@ -526,11 +526,36 @@ ol.type li a.active { font-weight: 700; }
 }
 .portfolio-item{
 	margin-bottom: 30px;
+	
 }
 .portfolio-item .hover-bg{
 	height: 260px;
+	width: 260px;
 	overflow: hidden;
 	position: relative;
+	border-radius: 10px;
+}
+.hoverbutton {
+	background-color: #e65100;
+	border-radius: 50%;
+    position: absolute;
+    color: #ffffff !important;
+    bottom: 7%;
+    font-size: 21px;
+    z-index: 95959599999 !important;
+    left: 0;
+    opacity: 0.2;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: -20px auto;
+}
+
+
+.post-media .hoverbutton:hover {
+    opacity: 0.8;
 }
 
 .hover-bg .hover-text {
@@ -572,6 +597,14 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
+.fa.fa-calendar{
+
+	border: none !important;
+	font-size: 15px !important;
+	padding: 5px  !important;
+
+
+}
 #tf-works i.fa {
 	height: 30px;
 	width: 30px;
@@ -581,6 +614,7 @@ ol.type li a.active { font-weight: 700; }
 	border-radius: 50%;
 	color: #FCAC45;
 }
+
 /* Testimonials Section */
 #tf-testimonials{
 	background: url(../img/05.webp);

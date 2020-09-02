@@ -4,12 +4,16 @@
       <img  src="img/loader.gif" alt="" />
     </div>
     <HeaderTwo />    
-    <Carrousel  :proyectdata="this.detailsProyect"/>¡
+    <Carrousel  :proyectdata="this.detailsProyect"/>
+    <hr/>
+    <Description  :proyectdata="this.detailsProyect"/>
+
   </div>
 </template>
 <script>
 import HeaderTwo from '../../components/Carrousel/HeaderTwo';
 import Carrousel from '../../components/Carrousel/Carrousel';
+import Description from '../../components/Carrousel/Description';
 import Footer from '../../components/Footer/Footer';
 import dataproyects from '../../static/proyects';
 import router from 'vue-router';
@@ -17,8 +21,7 @@ export default {
   components:{
     HeaderTwo,
     Carrousel,
-
-
+    Description
   },
   data () {
     return {
