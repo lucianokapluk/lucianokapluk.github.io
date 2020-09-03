@@ -1,20 +1,7 @@
-# personal-web visit https://lucianokapluk.github.io
+## Hey this is my personal webpage
 
-## Build Setup
+##  Take a look https://lucianokapluk.github.io
 
-```bash
-# install dependencies
-$ npm install
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+This site was built using Nuxt.js and hosted in Github pages
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
