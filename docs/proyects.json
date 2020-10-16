@@ -16,6 +16,7 @@
             "screenshots/moviesApp/screenshot_04.jpg",
             "screenshots/moviesApp/Video.mp4"],
         "github":"https://github.com/lucianokapluk/movies-app-flutter",
+        "urldownload":"https://mega.nz/file/78IlHSCa#v-_BcTkyauJmikm8EsH7L7O--CimZmSwJmSOv5B6LVc",
         "url":"",
         "date": "25-08-2020"
     },
@@ -34,7 +35,9 @@
             "screenshots/teloregalo/screenshot_03.jpg",
             "screenshots/teloregalo/screenshot_04.jpg"],
         "github":"https://github.com/Comunidad-Programadores-contra-Covid-19/Teloregalo/tree/dev",
+        "urldownload":"",
         "url":"https://teloregalo.com.ar/",
+
         "date": "16-04-2020"
     }
    
