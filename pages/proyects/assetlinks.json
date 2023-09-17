@@ -2,8 +2,8 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.example.deeplink_cookbook",
+    "package_name": "com.vectormgt.app",
     "sha256_cert_fingerprints":
-    ["FF:2A:CF:7B:DD:CC:F1:03:3E:E8:B2:27:7C:A2:E3:3C:DE:13:DB:AC:8E:EB:3A:B9:72:A1:0E:26:8A:F5:EC:AF"]
+    ["5d:95:a2:b8:15:a1:0a:0b:ab:5c:24:f8:bc:58:e8:f8:b8:42:cb:05:83:ce:67:f2:93:43:cc:9a:13:fa:db:7f"]
   }
 }]
