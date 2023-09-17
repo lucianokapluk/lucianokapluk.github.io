@@ -26,7 +26,8 @@ export default {
   data () {
     return {
       detailsProyect: dataproyects[this.$route.params.proyect],
-      loading:true
+      loading:true,
+        assetLinksUrl: '/assetlinks.json'
     }
   },
   head(){
